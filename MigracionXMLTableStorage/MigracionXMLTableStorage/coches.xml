@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<coches>
+    <coche>
+		<idcoche>1</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE A</modelo>
+		<tipo>URBANOS</tipo>
+		<coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>2</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE B</modelo>
+        <tipo>URBANOS</tipo>
+        <coste>100000</coste>
+    </coche>
+    <coche>
+		<idcoche>3</idcoche>	
+		<marca>MERCEDES</marca>
+        <modelo>CLASE C</modelo>
+		<tipo>Frances Burgues</tipo>
+		<coste>100800</coste>
+    </coche>
+    <coche>
+		<idcoche>4</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE D</modelo>
+		<tipo>URBANOS</tipo>
+        <coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>5</idcoche>	
+		<marca>MERCEDES</marca>
+        <modelo>CLASE E</modelo>
+        <tipo>URBANOS</tipo>
+        <coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>6</idcoche>	
+		<marca>AUDI</marca>
+        <modelo>A1</modelo>
+        <tipo>FAMILIARES</tipo>
+        <coste>105800</coste>
+    </coche>
+    <coche>
+		<idcoche>7</idcoche>
+		<marca>AUDI</marca>
+        <modelo>A3</modelo>
+		<tipo>FAMILIARES</tipo>
+		<coste>157892</coste>
+    </coche>
+    <coche>
+		<idcoche>8</idcoche>
+		<marca>AUDI</marca>
+        <modelo>A4</modelo>
+		<tipo>FAMILIARES</tipo>
+		<coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>9</idcoche>	
+		<marca>AUDI</marca>
+        <modelo>A5</modelo>
+		<tipo>FAMILIARES</tipo>
+		<coste>157892</coste>
+    </coche>
+    <coche>
+		<idcoche>10</idcoche>
+		<marca>AUDI</marca>
+        <modelo>A6</modelo>
+		<tipo>FAMILIARES</tipo>
+		<coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>11</idcoche>	
+		<marca>FERRARI</marca>
+        <modelo>CALIFORNIA</modelo>
+        <tipo>SEDAN</tipo>
+        <coste>157892</coste>
+    </coche>
+    <coche>
+		<idcoche>12</idcoche>	
+		<marca>FERRARI</marca>
+        <modelo>LAFERRARI</modelo>
+        <tipo>SEDAN</tipo>
+        <coste>157892</coste>
+    </coche>
+    <coche>
+		<idcoche>13</idcoche>
+		<marca>FERRARI</marca>
+        <modelo>PORTOFINO</modelo>
+		<tipo>SEDAN</tipo>
+		<coste>157892</coste>
+    </coche>
+    <coche>
+		<idcoche>14</idcoche>
+		<marca>FERRARI</marca>
+        <modelo>LUSSO</modelo>
+		<tipo>SEDAN</tipo>
+		<coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>15</idcoche>	
+		<marca>FERRARI</marca>
+        <modelo>SUPERFAST</modelo>
+		<tipo>SEDAN</tipo>
+		<coste>157892</coste>
+    </coche>
+    <coche>
+		<idcoche>16</idcoche>
+		<marca>FERRARI</marca>
+        <modelo>GTB</modelo>
+		<tipo>SEDAN</tipo>
+		<coste>157892</coste>
+    </coche>	
+    <coche>
+		<idcoche>17</idcoche>	
+		<marca>AUDI</marca>
+        <modelo>A7</modelo>
+		<tipo>SEDAN</tipo>
+		<coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>18</idcoche>
+		<marca>AUDI</marca>
+        <modelo>A8</modelo>
+		<tipo>MONOVOLUMEN</tipo>
+		<coste>199995</coste>
+    </coche>
+    <coche>
+		<idcoche>19</idcoche>	
+		<marca>FERRARI</marca>
+        <modelo>SUPER A</modelo>
+        <tipo>DEPORTIVO</tipo>
+        <coste>199995</coste>
+    </coche>
+    <coche>
+		<idcoche>20</idcoche>	
+		<marca>FERRARI</marca>
+        <modelo>SUPER B</modelo>
+        <tipo>DEPORTIVO</tipo>
+        <coste>199995</coste>
+    </coche>
+    <coche>
+		<idcoche>21</idcoche>
+		<marca>FERRARI</marca>
+        <modelo>SUPER C</modelo>
+		<tipo>DEPORTIVO</tipo>
+		<coste>150000</coste>
+    </coche>
+    <coche>
+		<idcoche>22</idcoche>
+		<marca>FERRARI</marca>
+        <modelo>SUPER D</modelo>
+		<tipo>DEPORTIVO</tipo>
+		<coste>199995</coste>
+    </coche>
+    <coche>
+		<idcoche>23</idcoche>	
+		<marca>FERRARI</marca>
+        <modelo>SUPER E</modelo>
+		<tipo>DEPORTIVO</tipo>
+		<coste>199995</coste>
+    </coche>
+    <coche>
+		<idcoche>24</idcoche>
+		<marca>FERRARI</marca>
+        <modelo>SUPER F</modelo>
+		<tipo>DEPORTIVO</tipo>
+		<coste>123456</coste>
+    </coche>		
+    <coche>
+		<idcoche>25</idcoche>	
+		<marca>MERCEDES</marca>
+        <modelo>CLASE F</modelo>
+        <tipo>DEPORTIVO</tipo>
+        <coste>125634</coste>
+    </coche>
+    <coche>
+		<idcoche>26</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE G</modelo>
+		<tipo>Malonda</tipo>
+		<coste>125000</coste>
+    </coche>
+    <coche>
+		<idcoche>27</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE H</modelo>
+		<tipo>Fernandez</tipo>
+		<coste>125000</coste>
+    </coche>
+    <coche>
+		<idcoche>28</idcoche>	
+		<marca>MERCEDES</marca>
+        <modelo>CLASE I</modelo>
+		<tipo>CROSSOVER</tipo>
+		<coste>125000</coste>
+    </coche>
+    <coche>
+		<idcoche>29</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE J</modelo>
+		<tipo>CROSSOVER</tipo>
+		<coste>180000</coste>
+    </coche>		
+    <coche>
+		<idcoche>30</idcoche>
+		<marca>MERCEDES</marca>
+        <modelo>CLASE K</modelo>
+		<tipo>CROSSOVER</tipo>
+		<coste>180000</coste>
+    </coche>			
+</coches>

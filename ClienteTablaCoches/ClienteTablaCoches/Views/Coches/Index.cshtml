@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ClienteTablaCoches.Models.Coches>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<form method="post">
+    <label>Intoduce la marca a buscar </label>
+    <input type="text" name="marca" class="form-control"/>
+    <button type="submit" class="btn-success">Buscar</button>
+</form>
+@if (Model!=null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PartitionKey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RowKey)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Coste)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PartitionKey)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RowKey)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modelo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tipo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Coste)
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.RowKey, marca=item.PartitionKey })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+else
+{
+    <h2 style="color:red">@ViewBag.Mensaje</h2>
+}
+
