@@ -20,13 +20,7 @@ namespace MigracionXMLTableStorage.Controllers
             //ViewBag.Message = "Creada correctamente";
             return View();
         }
-        //[HttpPost]
-        //public ActionResult Index(String algo)
-        //{
-        //    modelo.CrearTabla();
-        //    //ViewBag.Message = "Creada correctamente";
-        //    return View();
-        //}
+
 
         public ActionResult About()
         {

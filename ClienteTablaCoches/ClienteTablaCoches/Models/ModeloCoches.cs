@@ -13,6 +13,7 @@ namespace ClienteTablaCoches.Models
     {
         public String GetToken(String marca)
         {
+            //Añada la url de su api
             String url = "http://localhost:63404/api/gettoken/" + marca;
             WebClient cliente = new WebClient();
             cliente.Headers["content-type"] = "application/xml";
@@ -25,7 +26,7 @@ namespace ClienteTablaCoches.Models
         public CloudTable GetTabla(String marca)
         {
             String token = GetToken(marca);
-            String uri = "https://storagetajamarmo.table.core.windows.net/";
+            String uri = "Ponga su Uri de Azure Table Stotage";
             Uri tablauri = new Uri(uri);
             StorageCredentials credenciales =
                 new StorageCredentials(token);
@@ -62,22 +63,7 @@ namespace ClienteTablaCoches.Models
                 tabla.Execute(oper);
             }
         }
-        //public void InsertarCoche(String marca, String idcoche, String modelo, String tipo, String coste)
-        //{
 
-        //    CloudTable tabla = GetTabla(marca);
-        //    Coches cochenuevo = new Coches()
-        //    {
-        //        PartitionKey=idcoche,
-        //        RowKey=marca,
-        //        Modelo=modelo,
-        //        Tipo=tipo,
-        //        Coste=coste
-
-        //    };
-        //    var oper = TableOperation.Insert(cochenuevo);
-        //    tabla.Execute(oper);
-        //}
 
     }
 }

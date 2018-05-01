@@ -35,15 +35,6 @@ namespace ClienteTablaCoches.Controllers
             modelo.EliminarCoche(id, marca);
             return RedirectToAction("Index", new {marca =marca });
         }
-        //public ActionResult Create()
-        //{           
-        //    return View();
-        //}
-        //[HttpPost]
-        //public ActionResult Create(String RowKey, String PartitionKey, String Modelo,String Tipo,String Coste)
-        //{
-        //    modelo.InsertarCoche(RowKey, PartitionKey, Modelo, Tipo, Coste);
-        //    return RedirectToAction("Index");
-        //}
+
     }
 }
